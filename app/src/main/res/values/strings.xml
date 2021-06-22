@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JetComposer</string>
+
+    <string name="item_tv_static">Television Static</string>
+    <string name="item_tv_static_sub">The good\'ol 90s</string>
+    <string name="item_parallax">Parallax Effect</string>
+    <string name="item_parallax_sub">Interact in 3D space</string>
+    <string name="item_mac">Composed iMac</string>
+    <string name="item_mac_sub">Because why not?</string>
+
+</resources>
