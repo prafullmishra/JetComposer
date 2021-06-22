@@ -1,7 +1,7 @@
 Jet Composer
 =====
 
-![](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+<img src="/screenshots/app-logo.png" alt="app-logo" width="200" height="200"/>
 
 Jet Composer is a sample app built with Jetpack Compose for Android, which demonstrates
  the various UIs and animations that can be built with it.

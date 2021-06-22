@@ -86,7 +86,8 @@ fun Television() {
                     contentAlignment = Alignment.CenterEnd
                 ){
                     Surface(
-                        modifier = Modifier.size(1.3.dp),
+                        shape = CircleShape,
+                        modifier = Modifier.size(2.dp),
                         color = if(isSwitchedOn) Color.Green else Color.Red
                     ) {}
                 }
@@ -187,6 +188,9 @@ fun StaticCanvas() {
     }
     Choreographer.getInstance().postFrameCallback(frameCallback)
 
+    /**
+     * to clear up the frame callback
+     */
     DisposableEffect(true) {
         onDispose {
             isRunning = false
