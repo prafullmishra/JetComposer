@@ -15,7 +15,7 @@ Features
 
 Screenshots
 -----------
-![](https://media.giphy.com/media/iMDUg4MLcZhrHB1rjk/giphy.gif)  ![](https://media.giphy.com/media/fevvR9F2oakq6LQqOS/giphy.gif)  ![](/screenshots/Screenshot_imac.png) ![](/screenshots/Screenshot_home.png)
+![](https://media.giphy.com/media/iMDUg4MLcZhrHB1rjk/giphy.gif)  ![](https://media.giphy.com/media/fevvR9F2oakq6LQqOS/giphy.gif) ![](https://media.giphy.com/media/u019tDdjPhkijV52Y2/giphy.gif)  ![](/screenshots/Screenshot_imac.png) ![](/screenshots/Screenshot_home.png)
 
 Get Started
 -----------

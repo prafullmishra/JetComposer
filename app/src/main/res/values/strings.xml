@@ -7,5 +7,7 @@
     <string name="item_parallax_sub">Interact in 3D space</string>
     <string name="item_mac">Composed iMac</string>
     <string name="item_mac_sub">Because why not?</string>
+    <string name="item_trackpad">Trackpad</string>
+    <string name="item_trackpad_sub">View that mirrors gestures</string>
 
 </resources>

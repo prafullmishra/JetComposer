@@ -43,6 +43,12 @@ fun NavGraphBuilder.addMac() {
     composable(route = Destination.Mac) { Mac({}) }
 }
 
+@ExperimentalAnimationApi
+@ExperimentalComposeUiApi
+fun NavGraphBuilder.addTrackPad() {
+    composable(route = Destination.TrackPad) { TrackPad() }
+}
+
 /*
  * Utility wrapper ext function for NavGraphBuilder.compose()
  */

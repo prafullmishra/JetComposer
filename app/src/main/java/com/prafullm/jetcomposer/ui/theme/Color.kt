@@ -3,6 +3,8 @@ package com.prafullm.jetcomposer.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val droidGreen = Color(0xFF3ddd86)
+val lightBlue = Color(0xFFCAE3FF)
+val darkBlue = Color(0xFF006ee6)
 
 val White = Color(0xFFFFFFFF)
 val Black50 = Color(0xFFf6f6f6)

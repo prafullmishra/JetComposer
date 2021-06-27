@@ -1,6 +1,5 @@
 package com.prafullm.jetcomposer.model
 
-import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 /**
@@ -20,4 +19,5 @@ sealed class Destination(val destinationName: String) {
     object TvStatic: Destination("tv_static")
     object Parallax: Destination("parallax")
     object Mac: Destination("imac")
+    object TrackPad: Destination("trackpad")
 }

@@ -13,10 +13,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.prafullm.jetcomposer.model.Destination
 import com.prafullm.jetcomposer.model.HomeItem
-import com.prafullm.jetcomposer.navigation.addHomeScreen
-import com.prafullm.jetcomposer.navigation.addMac
-import com.prafullm.jetcomposer.navigation.addParallax
-import com.prafullm.jetcomposer.navigation.addTvStatic
+import com.prafullm.jetcomposer.navigation.*
 import com.prafullm.jetcomposer.ui.theme.JetComposerTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,6 +22,7 @@ class MainActivity : ComponentActivity() {
         HomeItem(R.string.item_parallax, R.string.item_parallax_sub, Destination.Parallax),
         HomeItem(R.string.item_tv_static, R.string.item_tv_static_sub, Destination.TvStatic),
         HomeItem(R.string.item_mac, R.string.item_mac_sub, Destination.Mac),
+        HomeItem(R.string.item_trackpad, R.string.item_trackpad_sub, Destination.TrackPad),
     )
 
     @ExperimentalAnimationApi
@@ -59,6 +57,7 @@ fun JetComposerApp(items: List<HomeItem>, onThemeSwitch:() -> Unit) {
         addTvStatic()
         addParallax()
         addMac()
+        addTrackPad()
     }
 }
 
