@@ -20,4 +20,5 @@ sealed class Destination(val destinationName: String) {
     object Parallax: Destination("parallax")
     object Mac: Destination("imac")
     object TrackPad: Destination("trackpad")
+    object IgChat: Destination("ig_chat")
 }

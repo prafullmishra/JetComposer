@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
         HomeItem(R.string.item_tv_static, R.string.item_tv_static_sub, Destination.TvStatic),
         HomeItem(R.string.item_mac, R.string.item_mac_sub, Destination.Mac),
         HomeItem(R.string.item_trackpad, R.string.item_trackpad_sub, Destination.TrackPad),
+        HomeItem(R.string.item_igchat, R.string.item_igchat_sub, Destination.IgChat),
     )
 
     @ExperimentalAnimationApi
@@ -58,6 +59,7 @@ fun JetComposerApp(items: List<HomeItem>, onThemeSwitch:() -> Unit) {
         addParallax()
         addMac()
         addTrackPad()
+        addIgChat(onUpPressed = { navController.popBackStack() })
     }
 }
 

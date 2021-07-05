@@ -9,5 +9,9 @@
     <string name="item_mac_sub">Because why not?</string>
     <string name="item_trackpad">Trackpad</string>
     <string name="item_trackpad_sub">View that mirrors gestures</string>
+    <string name="item_igchat">Instagram Chat</string>
+    <string name="item_igchat_sub">Color shifting messages</string>
+
+    <string name="ig_bottom_placeholder">Message…</string>
 
 </resources>

@@ -63,9 +63,32 @@
         <entry key="../../../../layout/compose-model-1624773908513.xml" value="0.23099662162162163" />
         <entry key="../../../../layout/compose-model-1624775071352.xml" value="0.2" />
         <entry key="../../../../layout/compose-model-1624785067585.xml" value="0.22037037037037038" />
+        <entry key="../../../../layout/compose-model-1624877405870.xml" value="0.20277777777777778" />
+        <entry key="../../../../layout/compose-model-1624878296270.xml" value="0.22255067567567569" />
+        <entry key="../../../../layout/compose-model-1624878662919.xml" value="0.165" />
+        <entry key="../../../../layout/compose-model-1624935799818.xml" value="0.22348484848484848" />
+        <entry key="../../../../layout/compose-model-1624979393668.xml" value="2.5" />
+        <entry key="../../../../layout/compose-model-1624984603165.xml" value="0.22348484848484848" />
+        <entry key="../../../../layout/compose-model-1625073158199.xml" value="0.17196969696969697" />
+        <entry key="../../../../layout/compose-model-1625073267164.xml" value="0.2101851851851852" />
+        <entry key="../../../../layout/compose-model-1625073801725.xml" value="0.335" />
+        <entry key="../../../../layout/compose-model-1625126083455.xml" value="0.19383445945945946" />
+        <entry key="../../../../layout/compose-model-1625126373651.xml" value="0.2101851851851852" />
+        <entry key="../../../../layout/compose-model-1625333587757.xml" value="0.2064814814814815" />
+        <entry key="../../../../layout/compose-model-1625387751025.xml" value="0.23099662162162163" />
+        <entry key="../../../../layout/compose-model-1625392801169.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1625392841050.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25462962962962965" />
         <entry key="app/src/main/res/drawable/ic_cursor.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_image.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_mic.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_outline_insert_photo_24.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_phone.xml" value="0.20462962962962963" />
         <entry key="app/src/main/res/drawable/ic_pointing_hand.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_round_android_24.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_video.xml" value="0.20462962962962963" />
         <entry key="app/src/main/res/drawable/parallax_bg.xml" value="0.25462962962962965" />
         <entry key="app/src/main/res/drawable/parallax_bg_new.xml" value="0.2390625" />
         <entry key="app/src/main/res/drawable/parallax_front.xml" value="0.17314814814814813" />
