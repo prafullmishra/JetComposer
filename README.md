@@ -15,13 +15,13 @@ Features
 
 Screenshots
 -----------
-![](https://media.giphy.com/media/iMDUg4MLcZhrHB1rjk/giphy.gif)  ![](https://media.giphy.com/media/fevvR9F2oakq6LQqOS/giphy.gif) ![](https://media.giphy.com/media/u019tDdjPhkijV52Y2/giphy.gif)  ![](/screenshots/Screenshot_imac.png) ![](/screenshots/Screenshot_home.png)
+![](https://media.giphy.com/media/iMDUg4MLcZhrHB1rjk/giphy.gif)  ![](https://media.giphy.com/media/fevvR9F2oakq6LQqOS/giphy.gif) ![](/screenshots/Screenshot_imac.png) ![](https://media.giphy.com/media/u019tDdjPhkijV52Y2/giphy.gif) ![](https://media.giphy.com/media/MoI125e21S5DhO11Ni/giphy.gif) ![](https://media.giphy.com/media/jWtRpl8pTpbQjClg8V/giphy.gif)
 
 Get Started
 -----------
 
 Since Jetpack Compose is not stable yet, you will have to download the Android Studio Arctic Fox from [here](https://developer.android.com/studio/preview/).
-Tested & build with Android Studio Arctic Fox | 2020.3.1 Beta 4 (as on June 20, 2021).
+Tested & built with Android Studio Arctic Fox | 2020.3.1 Beta 4 (as on June 20, 2021).
 
 
 Author
