@@ -32,8 +32,8 @@ import com.prafullm.jetcomposer.ui.theme.droidGreen
 import kotlin.math.atan
 import kotlin.math.tan
 
-const val maxAngle = 50f
-val maxTranslation = 140.dp.value
+private const val maxAngle = 50f
+private val maxTranslation = 140.dp.value
 
 @ExperimentalAnimationApi
 @ExperimentalComposeUiApi
@@ -135,8 +135,11 @@ fun Parallax() {
                     )
                     .size(250.dp)
                     .align(Alignment.Center)
-            ){
-                Image(imageVector = ImageVector.vectorResource(id = R.drawable.parallax_n_front), contentDescription = "Parallax Background")
+            ) {
+                Image(
+                    imageVector = ImageVector.vectorResource(id = R.drawable.parallax_n_front),
+                    contentDescription = "Parallax Background"
+                )
             }
 
         }
@@ -150,7 +153,7 @@ fun Parallax() {
  * @param start : coordinates of first touch event
  * @param end : coordinates of final touch event
  */
-fun getRotationAngles(
+private fun getRotationAngles(
     start: Pair<Float, Float>,
     end: Pair<Float, Float>,
     size: Size
@@ -166,14 +169,14 @@ fun getRotationAngles(
     return Pair(rotationX, rotationY)
 }
 
-fun getDistances(p1: Pair<Float, Float>, p2: Pair<Float, Float>): Pair<Float, Float> {
+private fun getDistances(p1: Pair<Float, Float>, p2: Pair<Float, Float>): Pair<Float, Float> {
     return Pair(
         p2.first - p1.first,
         p2.second - p1.second
     )
 }
 
-fun getTranslation(angle: Float, maxDistance: Float): Float {
-    return (angle/90f) * maxDistance
+private fun getTranslation(angle: Float, maxDistance: Float): Float {
+    return (angle / 90f) * maxDistance
 }
 
