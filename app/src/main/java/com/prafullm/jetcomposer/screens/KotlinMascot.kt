@@ -65,7 +65,17 @@ private fun KotlinMascot() {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.DarkGray)
+                .background(
+                    brush = Brush.verticalGradient(
+                        colors = listOf(
+                            Color(0xFF7F52FF),
+                            Color(0xFFC711E1),
+                            Color(0xFFE44857),
+                            Color(0xFF7F52FF)
+                        ).reversed(),
+                        startY = 1.0f
+                    )
+                )
                 .onGloballyPositioned { coordinates ->
                     viewSize = Size(
                         width = coordinates.size.width.toFloat(),
@@ -124,18 +134,7 @@ private fun KotlinMascot() {
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
-                            .background(
-                                brush = Brush.verticalGradient(
-                                    colors = listOf(
-                                        //Color(0xFF7F52FF),
-                                        Color.LightGray,
-                                        Color(0xFFC711E1),
-                                        Color(0xFFE44857),
-                                        Color(0xFF7F52FF)
-                                    ).reversed(),
-                                    startY = 1.0f
-                                )
-                            )
+                            .background(Color.DarkGray)
                     ) {
 
                         Image(
@@ -144,7 +143,7 @@ private fun KotlinMascot() {
                             ),
                             contentDescription = "Parallax Background",
                             modifier = Modifier.fillMaxSize(),
-                            alpha = 0.4f,
+                            alpha = 0.5f,
                             colorFilter = ColorFilter.tint(Color.Black)
                         )
 
@@ -155,7 +154,7 @@ private fun KotlinMascot() {
                                 .size(24.dp)
                                 .align(Alignment.BottomEnd)
                                 .offset(x = (-16).dp, y = (-16).dp)
-                                .alpha(0.4f),
+                                .alpha(0.5f),
                             tint = Color.Black,
                         )
 
@@ -168,7 +167,7 @@ private fun KotlinMascot() {
                             modifier = Modifier
                                 .align(Alignment.TopStart)
                                 .padding(start = 16.dp, top = 8.dp)
-                                .alpha(0.4f)
+                                .alpha(0.5f),
                         )
                     }
 
