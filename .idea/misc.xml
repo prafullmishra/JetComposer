@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/compose-model-1634969932266.xml" value="0.23190235690235692" />
+        <entry key="../../../../../../layout/compose-model-1634969947676.xml" value="0.23190235690235692" />
         <entry key="../../../../layout/compose-model-1623567527121.xml" value="0.22297297297297297" />
         <entry key="../../../../layout/compose-model-1623567546166.xml" value="1.0" />
         <entry key="../../../../layout/compose-model-1623567932188.xml" value="0.125" />
@@ -89,6 +91,8 @@
         <entry key="app/src/main/res/drawable/ic_pointing_hand.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/ic_round_android_24.xml" value="0.20462962962962963" />
         <entry key="app/src/main/res/drawable/ic_video.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/kotlin_logo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/kotlin_mascot_2d_8.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/parallax_bg.xml" value="0.25462962962962965" />
         <entry key="app/src/main/res/drawable/parallax_bg_new.xml" value="0.2390625" />
         <entry key="app/src/main/res/drawable/parallax_front.xml" value="0.17314814814814813" />
